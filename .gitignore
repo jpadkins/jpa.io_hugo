@@ -1,0 +1,7 @@
+
+public/*
+
+*.swo
+*.swp
+.DS_Store
+.vscode/

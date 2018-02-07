@@ -1,0 +1,8 @@
+name = "Custom"
+license = "MIT"
+description = "Theme for Jacob Adkins's Blog"
+
+[author]
+  name = "Jacob Adkins"
+  homepage = "jpa.io"
+

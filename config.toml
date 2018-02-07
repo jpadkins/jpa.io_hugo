@@ -1,0 +1,34 @@
+
+baseURL = "/"
+theme = "custom"
+languageCode = "en-us"
+pygmentsStyle = "tango"
+pygmentsCodeFences = true
+title = "Jacob Adkins's Blog"
+pygmentsOptions = "linenos=table"
+footnotereturnlinkcontents = "↩"
+disqusShortname = "jpa-io.disqus.com"
+
+[permalinks]
+    posts = "/post/:year/:month/:day/:slug/"
+
+[params]
+    footerInfo = "&copy; Jacob Adkins 2018 | [Github](https://github.com/jpadkins)"
+
+[[menu.main]]
+    name = "Home"
+    identifier = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+

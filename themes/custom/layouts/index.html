@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<h1 class="title">jpa.io</h1>
+
+<main>
+{{ .Content }}
+
+<ul>
+    {{ range where .Data.Pages "Section" "!=" "" }}
+    <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+
+</main>
+
+{{ partial "footer.html" . }}

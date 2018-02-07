@@ -1,0 +1,45 @@
+
+html {
+    background-color: #0E3A53;
+    /*background-color: #AACA97;*/
+    /*background-color: #F0EDE5;*/
+}
+
+.wrapper {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.title {
+    background-color: #F0EDE5;
+}
+
+.title, .subtitle, nav, footer {
+    text-align: center;
+}
+
+blockquote {
+    background-color: #f8f8f8;
+    padding: 5px 5px 5px 5px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        padding: 20px 10px 20px 10px;
+        margin: 30px 10px 30px 10px;
+    }
+    main {
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper {
+        padding: 30px 120px 30px 120px;
+        margin: 30px 100px 30px 100px;
+    }
+    main {
+        padding: 30px 0px 30px 0px;
+    }
+}
