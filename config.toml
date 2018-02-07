@@ -1,10 +1,11 @@
 
 baseURL = "/"
 theme = "custom"
+title = "jpa.io"
 languageCode = "en-us"
 pygmentsStyle = "tango"
 pygmentsCodeFences = true
-title = "Jacob Adkins's Blog"
+pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 footnotereturnlinkcontents = "↩"
 disqusShortname = "jpa-io.disqus.com"

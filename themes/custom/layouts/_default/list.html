@@ -8,7 +8,7 @@
 {{ .Content }}
 
 <ul>
-    {{ range (where .Data.Pages "Section" "!=" "") }}
+    {{ range where .Data.Pages "Section" "!=" "" }}
     <li>
         <span>{{ .Date.Format "01-02-2006" }}</span>
         <a href="{{ .URL }}">{{ .Title }}</a>

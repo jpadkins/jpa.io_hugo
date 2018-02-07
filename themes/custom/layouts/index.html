@@ -7,7 +7,10 @@
 
 <ul>
     {{ range where .Data.Pages "Section" "!=" "" }}
-    <li><a href="{{.Permalink}}">{{ .Title }}</a></li>
+    <li>
+        <span>{{ .Date.Format "01-02-2006" }}</span>
+        <a href="{{ .URL }}">{{ .Title }}</a>
+    </li>
     {{ end }}
 </ul>
 
