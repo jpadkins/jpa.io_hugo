@@ -3,11 +3,11 @@ baseURL = "/"
 theme = "custom"
 title = "jpa.io"
 languageCode = "en-us"
-pygmentsStyle = "tango"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
 footnotereturnlinkcontents = "↩"
+pygmentsOptions = "linenos=table"
+googleAnalytics = "UA-113920057-1"
 disqusShortname = "jpa-io.disqus.com"
 
 [permalinks]

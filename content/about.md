@@ -11,8 +11,8 @@ I've got a thing for webdev, Ruby, C, CRPGS, Roguelikes, cult/exploitation/B fil
 
 Q: Why does your website look like it was designed by someone in the 90s?
 
-A: Because I believe you should be able to disable JS without a site losing readability. Because I care about those of us using screen readers. And because if you want to browse jpa.io from links or w3m, you deserve nothing but the full browser experience. But, most importantly, I've grown to love the style of late-90s/early-00s tech blogs and documentation sites.
+A: Because I believe you should be able to disable JS without a site losing readability. If you want to browse jpa.io from links or w3m, you deserve nothing but the full browser experience. Also I've grown attached to the style of late-90s/early-00s tech blogs and documentation sites.
 
 Q: Some of the code you've posted has a bug or could be improved. Can I contact you?
 
-A: Yes! I'd greatly appreciate it, in fact. [This](https://github.com/jpadkins/jpa.io_hugo) is a link to the repo storing the **Hugo** project I generate this site from. Please open a PR there. Otherwise, at the footer of any page you'll find links to my github profile, which contains my email.
+A: Yes! I'd greatly appreciate it, in fact. [This](https://github.com/jpadkins/jpa.io_hugo) is a link to the repo storing the **Hugo** project I generate this site from. Please open a PR there. Otherwise, at the footer of any page you'll find a link to my github profile, which contains my email.
